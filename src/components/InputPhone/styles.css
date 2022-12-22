@@ -1,0 +1,22 @@
+.Input {
+  width: 100%;
+  height: 85px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #ff0000;
+  text-indent: 10px;
+  color: #ff0;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 30px;
+  
+}
+.Input::placeholder {
+  color: #ff0
+}
+
+@media only screen and (min-width: 400px) {
+  .Input {
+    height: 77px
+  }
+}

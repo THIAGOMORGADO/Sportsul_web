@@ -1,38 +1,258 @@
-.App {
+main {
+  margin-top: 50px;
   text-align: center;
+  font-size: 28px !important;
+  
+}
+main h1 {
+  margin-bottom: 41px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn_Social {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.btn_Social .btnWhatsapp {
+  width: 54px;
+  height: 54px;
+  background-color: rgb(1, 137, 1);
+  border-radius: 50%;
+
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.logo_btn {
+  width: 27px;
+  height: 27px;
+}
+.btn_Social .btnTelegram {
+  width: 54px;
+  height: 54px;
+  background-color: rgb(11, 140, 215);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo_btn {
+  width: 27px;
+  height: 27px;
+}
+.btn_Social .btnInstagram {
+  width: 54px;
+  height: 54px;
+  background-color: rgb(198, 134, 132);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo_btn {
+  width: 27px;
+  height: 27px;
+}
+.aboutsSectio {
+  margin-top: 264px;
+}
+.aboutsSectio p {
+  font-size:  22px;
+  margin-top: 30px;
+  text-indent: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: bold;
+
+}
+.infoImg{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+ 
+  background-color: beige;
+
+}
+.aboutLogo {
+  width: 509px;
+  height: 400px;
+  border-radius: 5%;
+  border: 1px solid #000;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+  flex-direction: row;
+  height: 100px;
+  background-color: #ff0000;
+  padding: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.infoBoll1 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-right: 40px;
+}
+.infoBoll2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-right: 40px;
+}
+.infoBoll3 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-right: 40px;
+}
+.infoBoll4 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-right: 40px;
+}
+.infoBoll5 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .aboutsSectio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -250px;
   }
-  to {
-    transform: rotate(360deg);
+  .aboutsSectio p {
+    text-align: center;
+  }
+  .infoImg{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 324px;
+
+  }
+  .aboutLogo {
+    width: 230px;
+    height: 262px;
+    border-radius: 5%;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 23px;
+  }
+  .information {
+    width: 348px;
+    height: 65px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .informationContainer {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .infoBoll1 {
+   width: 49px;
+    height: 56px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-right: 40px;
+  }
+  .infoBoll2 {
+   width: 49px;
+    height: 56px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-right: 40px;
+  }
+  .infoBoll3 {
+    width: 49px;
+    height: 56px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-right: 40px;
+  }
+  .infoBoll4 {
+    width: 49px;
+    height: 56px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-right: 40px;
+  }
+  .infoBoll5 {
+    width: 49px;
+    height: 56px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-right: 10px;
+  }
+  .infoBoll1 img {
+    width: 31px;
+    height: 36px;
+  }
+  .infoBoll2 img {
+    width: 31px;
+    height: 36px;
+  }
+  .infoBoll3 img {
+    width: 31px;
+    height: 36px;
+  }
+  .infoBoll4 img {
+    width: 31px;
+    height: 36px;
+  }
+  .infoBoll5 img {
+    width: 31px;
+    height: 36px;
   }
 }

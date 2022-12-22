@@ -1,0 +1,36 @@
+a {
+  color: #fff !important;
+
+}
+.NavBar-container {
+  background-color: red;
+  
+
+
+}
+.Logo {
+  width: 84px !important;
+  height: 84px !important;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  
+}
+.btnArea {
+  background-color: #fff !important;
+  color: #fff !important;
+}
+.btnMenu {
+  display: flex;
+  align-items: flex-end;
+  
+}
+.item {
+  width: 100%;
+  margin: 0 auto;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end;
+  padding: 10px !important;
+}
